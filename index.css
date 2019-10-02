@@ -1,0 +1,148 @@
+body{
+	background-color: #2A95EB;
+	text-align: center;
+}
+
+h1{
+	font-family: cursive;
+	position: relative;
+	left: -40px;
+	top: 30px;
+	font-family: impact;
+	font-size: 40px;
+}
+.player1{
+	position: absolute;
+	left: 150px;
+	font-family: impact;
+	font-size: 30px;
+	color: white;
+}
+
+.s1{
+	font-size: 50px;
+	color: #EB802A;
+	position: absolute;
+	top: 40px;
+	width: 550px;
+	font-family: impact;
+}
+
+.player2{
+	position: absolute;
+	right: 260px;
+	font-family: impact;
+	font-size: 30px;
+}
+
+.s2{
+	font-size: 50px;
+	color: #EB802A;
+	position: absolute;
+	top: 40px;
+	width: 2595px;
+	font-family: impact;
+}
+
+.container{
+	background-color: #EB802A;
+	position: absolute;
+	width: 55%;
+	height: 330px;
+	top:160px;
+	left: 310px;
+	border-radius: 10px;
+}
+.r1{
+	position: absolute;
+	top: 22%;
+	left: 47.5%;
+	margin: 0 auto;
+	height: 0px;
+}
+
+.r2{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 32%;
+	left: 45.2%;
+	margin: 0 auto;
+	height: 0px;
+}
+
+.r3{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 42%;
+	left: 43%;
+	margin:0 auto;
+	height: 0px;
+}
+
+.r4{
+	display:flex;
+	justify-content: center;
+	margin:0 auto;
+	position: absolute;
+	top: 52%;
+	left: 40.8%;
+	height: 0px;
+}
+
+.element{
+	font-size: 70px;
+	color: #2A95EB;
+	font-family: sans-serif;
+	padding-left: 15px;
+}
+
+.end{
+	width: 120px;
+	height: 120px;
+	font-size: 15px;
+	font-family: cursive;
+	border-radius: 50%;
+	border-color: #2A95EB;
+	background-color: white;
+	color: #EB802A;
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+}
+
+.end-modal {
+	width: 120px;
+	height: 120px;
+	font-size: 15px;
+	font-family: cursive;
+	border-radius: 50%;
+	background-color: #de2124;
+	color: white;
+	position: absolute;
+	bottom: 10%;
+	left: 40%;
+}
+
+.modal-body{
+	text-align: center;
+}
+
+.reset1{
+	width: 500px;
+	height: 300px;
+	font-size: 50px;
+	border-radius: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	font-family: cursive;
+	position: absolute;
+	background-color: #2A95EB;
+	color: #EB802A;
+	top: 23%;
+	left: 30%;
+	border-color: currentColor;
+	border-style: groove;
+}
